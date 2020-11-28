@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">TrækOpdateringenNed</string>
+    <string name="listview_header_hint_release">SlipForStraksAtOpdatere</string>
+    <string name="refreshing">Forfriskende ...</string>
+    <string name="refresh_done">Opdater komplet</string>
+
+    <string name="listview_loading">Indlæser ...</string>
+    <string name="nomore_loading">uden</string>
+    <string name="listview_header_last_time">Sidst opdateret:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Indlæser ...</string>
+    <string name="list_footer_network_error">Klik på genindlæs</string>
+    <string name="list_footer_end">Alle indlæst</string>
+    <string name="text_just">Lige nu</string>
+    <string name="text_seconds_ago">Sekunder siden</string>
+    <string name="text_minute_ago">Minutter siden</string>
+    <string name="text_hour_ago">For timer siden</string>
+    <string name="text_day_ago">For dage siden</string>
+    <string name="text_month_ago">Måned siden</string>
+    <string name="text_year_ago">For mange år siden</string>
+</resources>

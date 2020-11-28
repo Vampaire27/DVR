@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Tõmmake värskendus alla</string>
+    <string name="listview_header_hint_release">Vabastage kohe \nvärskendamiseks</string>
+    <string name="refreshing">Värskendamine ...</string>
+    <string name="refresh_done">Värskendamine lõpetatud</string>
+
+    <string name="listview_loading">Sisse</string>
+    <string name="nomore_loading">Läinud</string>
+    <string name="listview_header_last_time">Viimati uuendatud:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Laadimine ...</string>
+    <string name="list_footer_network_error">Klõpsake nuppu Laadi uuesti</string>
+    <string name="list_footer_end">Kõik laaditud</string>
+    <string name="text_just">Just nüüd</string>
+    <string name="text_seconds_ago">Sekundid tagasi</string>
+    <string name="text_minute_ago">Minut tagasi</string>
+    <string name="text_hour_ago">Tundi tagasi</string>
+    <string name="text_day_ago">Päevad tagasi</string>
+    <string name="text_month_ago">Kuu aega tagasi</string>
+    <string name="text_year_ago">Aastaid tagasi</string>
+</resources>

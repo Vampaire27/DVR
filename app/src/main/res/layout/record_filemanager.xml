@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/title_file"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bg_headnor_file">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/video_manager"
+                android:textColor="#87BDF5"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_videoSelect"
+                android:layout_width="@dimen/DIMEN_120PX"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_select_selector"
+                android:text="@string/video_select"
+                android:textColor="#87BDF5"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/myActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@mipmap/bg_headnor_file">
+
+            <Button
+                android:id="@+id/tv_all_selected"
+                android:layout_width="@dimen/DIMEN_120PX"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_select_selector"
+                android:text="@string/all_selected"
+                android:textColor="#87BDF5"
+                android:visibility="visible"
+                android:textSize="16sp"
+               />
+            <Button
+                android:id="@+id/tv_all_selected_no"
+                android:layout_width="@dimen/DIMEN_120PX"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_select_selector"
+                android:text="@string/all_selected_no"
+                android:textColor="#87BDF5"
+                android:textSize="16sp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="@dimen/DIMEN_120PX"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/checked"
+                android:textColor="#87BDF5"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/tv_all_unselected"
+                android:layout_width="@dimen/DIMEN_120PX"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_select_selector"
+                android:text="@string/cancel"
+                android:textColor="#87BDF5"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:background="@color/BLACK"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/card_front"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/main_front_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/card_front" />
+
+                    <TextView
+                        android:id="@+id/main_front_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/main_front_iv"
+                        android:text="视频(前置)"
+                        android:layout_marginLeft="12dp"
+                        android:textColor="@color/WHITE"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/card_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/main_post_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/card_front" />
+
+                    <TextView
+                        android:id="@+id/main_post_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/main_post_iv"
+                        android:layout_marginLeft="12dp"
+                        android:text="视频(后置)"
+                        android:textColor="@color/WHEAT"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/card_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp" >
+
+                    <ImageView
+                        android:id="@+id/main_photo_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/card_photo" />
+
+                    <TextView
+                        android:id="@+id/main_photo_tv"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/main_photo_iv"
+                        android:text="图片"
+                        android:textColor="@color/WHEAT"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ListView
+                    android:id="@+id/file_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#B4EEB4"
+                    android:dividerHeight="1px"
+                    android:fadingEdge="none"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/DIMEN_50dp"
+                    android:layout_height="@dimen/DIMEN_50dp" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_weight="0.18"
+        android:layout_height="0dp"
+        android:background="@color/BLACK"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="@dimen/DIMEN_3PX">
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_delete_selector"
+            android:text="@string/delete"
+            android:textColor="@color/ANTIQUEWHITE"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/record_bg_tv"
+            android:background="@color/record_view_color"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:id="@+id/btn_lock"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_delete_selector"
+            android:text="@string/lock"
+            android:textColor="@color/ANTIQUEWHITE"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

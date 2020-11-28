@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">새로 고침 풀다운</string>
+    <string name="listview_header_hint_release">즉시 새로 고침</string>
+    <string name="refreshing">새로 고침 ...</string>
+    <string name="refresh_done">새로 고침 완료</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Camera</string>
+  <string name="no_signal">No Signal!</string>
+  <string name="brightness">Brightness</string>
+  <string name="saturation">Saturation</string>
+  <string name="contrast">Contrast</string>
+  <string name="default_set">Default</string>
+  <string name="camera_recommended_use">FHD(1080P) camera is recommended</string>
+  <string name="checking">Checking...Please waiting</string>
+  <string name="saving">Saving…Do not poweroff !</string>
+  <string name="camera_check">CheckType</string>
+  <string name="CAM_NO_SIGNAL">No Camera is detected, Please do the following actions to check: 1. Check whether the camera is connected correctly 2. Re-touch Auto Check, or manual setting camera type: Setting--Factory -- Camera and 360 panoramic set</string>
+  <string name="check_warn_info">If the reversing image is abnormal, please click the auto detect button!</string>
+  <string name="check_button">automatic detection</string>
+  <string name="save_ok">determine</string>
+  <string name="save_no">cancel</string>
+  <string name="check_show">Detection</string>
+  <string name="CAM_TYPE_UNKNOW">The test failed, please re-detect or manually set the camera type in \r\nFactory Settings - Rear View and 360 Panorama Settings.</string>
+  <string name="CAM_HARDWARE_ERROR">The reversing hardware has failed, please contact the dealer!</string>
+  <string name="check_success">Camera type:</string>
+  <string name="save_ask">Is it saved?</string>
+  <string name="write_ok">Saved successfully, exiting the reversing and re-entering the reversing will take effect!</string>
+</resources>

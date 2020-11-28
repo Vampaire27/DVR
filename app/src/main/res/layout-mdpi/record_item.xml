@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_record_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_select_file_selector"
+    android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_10PX">
+                <ImageView
+                    android:id="@+id/videoPlayImg"
+                    android:layout_width="@dimen/DIMEN_40PX"
+                    android:layout_height="@dimen/DIMEN_40PX"
+                    android:background="@mipmap/icon_video"/>
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:enabled="false"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:button="@drawable/checkbox_checked_style"
+                    android:background="@mipmap/list_checkbox_default"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_videoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/DIMEN_2PX"
+            android:drawablePadding="10dp"
+            android:ellipsize="marquee"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_20PX"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/file_lock" />
+</LinearLayout>

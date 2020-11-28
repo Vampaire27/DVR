@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Obnovte tah</string>
+    <string name="listview_header_hint_release">Uvolněním se okamžitě obnoví</string>
+    <string name="refreshing">Aktualizace ...</string>
+    <string name="refresh_done">Obnovit dokončeno</string>
+
+    <string name="listview_loading">V</string>
+    <string name="nomore_loading">Pryč</string>
+    <string name="listview_header_last_time">Naposledy aktualizováno</string>
+    <!--footer-->
+    <string name="list_footer_loading">Načítám ...</string>
+    <string name="list_footer_network_error">Klikněte na znovu načíst</string>
+    <string name="list_footer_end">Všechny načteny</string>
+    <string name="text_just">Právě teď</string>
+    <string name="text_seconds_ago">Před sekundami</string>
+    <string name="text_minute_ago">Před minutami</string>
+    <string name="text_hour_ago">Před hodinami</string>
+    <string name="text_day_ago">Před dny</string>
+    <string name="text_month_ago">Před měsícem</string>
+    <string name="text_year_ago">Před lety</string>
+</resources>

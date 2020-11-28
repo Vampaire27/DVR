@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">ท้ายเรือ</string>
+  <string name="no_signal">ไม่มีสัญญาณ</string>
+  <string name="brightness">ความสว่าง</string>
+  <string name="saturation">ความอิ่มตัว</string>
+  <string name="contrast">ความแตกต่าง</string>
+  <string name="default_set">ผิดนัด</string>
+  <string name="camera_recommended_use">แนะนำให้ใช้กล้อง FHD (1080P)</string>
+  <string name="checking">กำลังตรวจสอบ ... กรุณารอสักครู่</string>
+  <string name="saving">กำลังบันทึก ... อย่าปิดเครื่อง!</string>
+  <string name="camera_check">ตรวจสอบประเภท</string>
+  <string name="CAM_NO_SIGNAL">ไม่พบกล้องโปรดทำการตรวจสอบต่อไปนี้: 1.ตรวจสอบว่าเชื่อมต่อกล้องอย่างถูกต้อง 2. แตะ ตรวจสอบอัตโนมัติ หรือประเภทการตั้งค่าด้วยตนเอง: ตั้งค่า - โรงงาน - กล้องและชุดพาโนรามา 360</string>
+  <string name="check_warn_info">หากภาพกลับด้านผิดปกติกรุณาคลิกที่ปุ่มตรวจจับอัตโนมัติ!</string>
+  <string name="check_button">ตรวจจับอัตโนมัติ</string>
+  <string name="save_ok">ยืนยัน</string>
+  <string name="save_no">ยกเลิก</string>
+  <string name="check_show">ตรวจจับ</string>
+  <string name="CAM_TYPE_UNKNOW">การทดสอบล้มเหลวโปรดตรวจสอบอีกครั้งหรือตั้งค่าประเภทกล้องด้วยตนเองใน \ r \ n การตั้งค่าโรงงาน - มุมมองด้านหลังและการตั้งค่าพาโนรามา 360 องศา</string>
+  <string name="CAM_HARDWARE_ERROR">ฮาร์ดแวร์ย้อนกลับล้มเหลวโปรดติดต่อตัวแทนจำหน่าย!</string>
+  <string name="check_success">ประเภทกล้อง:</string>
+  <string name="save_ask">มันถูกบันทึกไว้?</string>
+  <string name="write_ok">บันทึกสำเร็จแล้วการออกจากการย้อนกลับและการย้อนกลับอีกครั้งจะมีผล!</string>
+</resources>

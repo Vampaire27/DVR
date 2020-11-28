@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Kéo xuống làm mới</string>
+    <string name="listview_header_hint_release">Phát hành để làm\n mới ngay lập tức</string>
+    <string name="refreshing">Làm mới ...</string>
+    <string name="refresh_done">Làm mới hoàn thành</string>
+</resources>

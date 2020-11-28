@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Τραβήξτε προς τα\n κάτω την ανανέωση</string>
+    <string name="listview_header_hint_release">Αφήστε το \nνα ανανεωθεί αμέσως</string>
+    <string name="refreshing">Ανανέωση ...</string>
+    <string name="refresh_done">Η ανανέωση ολοκληρώθηκε</string>
+
+    <string name="listview_loading">Σε</string>
+    <string name="nomore_loading">Έφυγε</string>
+    <string name="listview_header_last_time">Τελευταία ενημέρωση</string>
+    <!--footer-->
+    <string name="list_footer_loading">Φόρτωση ...</string>
+    <string name="list_footer_network_error">Κάντε κλικ στην επαναφόρτωση</string>
+    <string name="list_footer_end">Όλα φορτωμένα</string>
+    <string name="text_just">Μόλις τώρα</string>
+    <string name="text_seconds_ago">Πριν από δευτερόλεπτα</string>
+    <string name="text_minute_ago">Πριν από λίγα λεπτά</string>
+    <string name="text_hour_ago">Πριν από ώρες</string>
+    <string name="text_day_ago">Πριν από μέρες</string>
+    <string name="text_month_ago">Πριν από ένα μήνα</string>
+    <string name="text_year_ago">Πριν από χρόνια</string>
+</resources>

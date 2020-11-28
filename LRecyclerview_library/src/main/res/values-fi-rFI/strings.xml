@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Vedä päivitys alas</string>
+    <string name="listview_header_hint_release">Vapauta päivittääksesi heti</string>
+    <string name="refreshing">Päivitetään ...</string>
+    <string name="refresh_done">Päivitä loppuun</string>
+
+    <string name="listview_loading">Ladataan ...</string>
+    <string name="nomore_loading">ilman</string>
+    <string name="listview_header_last_time">Viimeksi päivitetty:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Ladataan...</string>
+    <string name="list_footer_network_error">Napsauta reload</string>
+    <string name="list_footer_end">Kaikki ladatut</string>
+    <string name="text_just">Juuri nyt</string>
+    <string name="text_seconds_ago">Sekuntia sitten</string>
+    <string name="text_minute_ago">Minuuttia sitten</string>
+    <string name="text_hour_ago">Tunnit sitten</string>
+    <string name="text_day_ago">Päivät sitten</string>
+    <string name="text_month_ago">Kuukausi sitten</string>
+    <string name="text_year_ago">Vuosia sitten</string>
+</resources>

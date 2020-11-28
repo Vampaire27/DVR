@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring">
+    <!--设置button里面的颜色-->
+    <solid android:color="#FF0030"/>
+    <!--设置button边框的颜色和宽度-->
+    <stroke android:color="@android:color/black" android:width="@dimen/DIMEN_1PX"/>
+</shape>

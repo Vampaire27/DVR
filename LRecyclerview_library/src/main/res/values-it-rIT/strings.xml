@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Abbassa l\'aggiornamento</string>
+    <string name="listview_header_hint_release">Rilasciare per \naggiornare immediatamente</string>
+    <string name="refreshing">Rinfrescante ...</string>
+    <string name="refresh_done">Aggiornamento completato</string>
+</resources>

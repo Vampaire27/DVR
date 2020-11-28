@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">سحب التحديث لأسفل</string>
+    <string name="listview_header_hint_release">حرر للتحديث على الفور</string>
+    <string name="refreshing">جارٍ التحديث ...</string>
+    <string name="refresh_done">اكتمل التحديث</string>
+
+    <string name="listview_loading">في</string>
+    <string name="nomore_loading">ذهب</string>
+    <string name="listview_header_last_time">آخر تحديث</string>
+    <!--footer-->
+    <string name="list_footer_loading">آخر تحديث</string>
+    <string name="list_footer_network_error">انقر فوق إعادة التحميل</string>
+    <string name="list_footer_end">جميع تحميلها</string>
+    <string name="text_just">الآن فقط</string>
+    <string name="text_seconds_ago">قبل ثوان</string>
+    <string name="text_minute_ago">قبل دقائق</string>
+    <string name="text_hour_ago">قبل ساعات</string>
+    <string name="text_day_ago">قبل أيام</string>
+    <string name="text_month_ago">قبل شهر</string>
+    <string name="text_year_ago">منذ سنوات</string>
+</resources>

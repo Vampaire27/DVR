@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Trageți înapoi refresh</string>
+    <string name="listview_header_hint_release">Eliberați-vă imediat\n pentru a reîmprospăta</string>
+    <string name="refreshing">Actualizare ...</string>
+    <string name="refresh_done">Actualizare completă</string>
+</resources>

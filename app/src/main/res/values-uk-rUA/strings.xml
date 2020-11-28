@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Реверс</string>
+  <string name="no_signal">Немає сигналу</string>
+  <string name="brightness">Яскравість</string>
+  <string name="saturation">Насиченість</string>
+  <string name="contrast">Контраст</string>
+  <string name="default_set">За замовчуванням</string>
+  <string name="camera_recommended_use">Рекомендується використовувати камеру FHD (1080P)!</string>
+  <string name="checking">Перевірка ... Будь ласка, зачекайте</string>
+  <string name="saving">Не вимикайте живлення під час збереження!</string>
+  <string name="camera_check">Виявлення камери</string>
+  <string name="CAM_NO_SIGNAL">Не виявлено жодної камери, дотримуйтеся вказівок щодо усунення несправностей 1. Перевірте, чи правильно підключена камера 2. Повторно визначте або перейдіть до Заводські налаштування - "Назад і Налаштування 360 панорами", щоб вручну встановити тип камери.</string>
+  <string name="check_warn_info">Якщо зображення заднього ходу є ненормальним, натисніть кнопку автоматичного виявлення!</string>
+  <string name="check_button">автоматичне виявлення</string>
+  <string name="save_ok">Визначте</string>
+  <string name="save_no">Скасувати</string>
+  <string name="check_show">Виявлення</string>
+  <string name="CAM_TYPE_UNKNOW">Тест не вдалося, будь ласка, повторно виявіть або вручну встановіть тип камери в меню rFactory Settings - Rear View та 360 Panorama Settings.</string>
+  <string name="CAM_HARDWARE_ERROR">Не вдалося здійснити реверсивне обладнання, зверніться до дилера!</string>
+  <string name="check_success">Тип камери:</string>
+  <string name="save_ask">Це збережено?</string>
+  <string name="write_ok">Збережено успішно, вихід із зворотного ходу і повторний вхід в реверс вступить в силу!</string>
+</resources>

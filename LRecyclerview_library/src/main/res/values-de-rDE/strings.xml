@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Aktualisierung nach\nunten ziehen</string>
+    <string name="listview_header_hint_release">Zum sofortigen \nAktualisieren loslassen</string>
+    <string name="refreshing">Erfrischend ...</string>
+    <string name="refresh_done">AktualisierungAbgeschlossen</string>
+
+    <string name="listview_loading">In</string>
+    <string name="nomore_loading">Vorbei</string>
+    <string name="listview_header_last_time">Zuletzt aktualisiert am:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Laden ...</string>
+    <string name="list_footer_network_error">Klicken Sie \nauf Neu laden</string>
+    <string name="list_footer_end">Alles geladen</string>
+    <string name="text_just">Gerade jetzt</string>
+    <string name="text_seconds_ago">Vor Sekunden</string>
+    <string name="text_minute_ago">Vor Minuten</string>
+    <string name="text_hour_ago">Vor Stunden</string>
+    <string name="text_day_ago">Vor Tagen</string>
+    <string name="text_month_ago">Vor einem Monat</string>
+    <string name="text_year_ago">Vor Jahren</string>
+</resources>

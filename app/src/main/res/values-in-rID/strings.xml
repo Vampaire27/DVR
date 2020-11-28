@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Membalik</string>
+  <string name="no_signal">Tidak ada sinyal</string>
+  <string name="brightness">Kecerahan</string>
+  <string name="saturation">Kejenuhan</string>
+  <string name="contrast">Kontras</string>
+  <string name="default_set">Default</string>
+  <string name="camera_recommended_use">Disarankan untuk menggunakan kamera FHD (1080P)!</string>
+  <string name="checking">Memeriksa ... Silakan tunggu</string>
+  <string name="saving">Jangan matikan saat menabung!</string>
+  <string name="camera_check">Deteksi kamera</string>
+  <string name="CAM_NO_SIGNAL">Tidak ada kamera yang terdeteksi, harap ikuti operasi untuk memecahkan masalah 1. Periksa apakah kamera terhubung dengan benar 2. Deteksi ulang atau buka pengaturan pabrik - tampilan belakang dan 360 pengaturan panorama secara manual mengatur jenis kamera</string>
+  <string name="check_warn_info">Jika gambar terbalik tidak normal, silakan klik tombol deteksi otomatis!</string>
+  <string name="check_button">Deteksi otomatis</string>
+  <string name="save_ok">Tentukan</string>
+  <string name="save_no">Batalkan</string>
+  <string name="check_show">Deteksi</string>
+  <string name="CAM_TYPE_UNKNOW">Tes gagal, harap deteksi ulang atau atur secara manual jenis kamera di \ r \ nPengaturan Pabrik - Tampak Belakang dan 360 Pengaturan Panorama.</string>
+  <string name="CAM_HARDWARE_ERROR">Perangkat keras pembalik telah gagal, silakan hubungi dealer!</string>
+  <string name="check_success">Jenis kamera:</string>
+  <string name="save_ask">Apakah sudah disimpan?</string>
+  <string name="write_ok">Berhasil disimpan, keluar dari balik dan masuk kembali akan berpengaruh!</string>
+</resources>

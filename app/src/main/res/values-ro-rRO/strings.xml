@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">severă </string>
+  <string name="no_signal">Nici un semnal.</string>
+  <string name="brightness">Teren ușor</string>
+  <string name="saturation">saturație</string>
+  <string name="contrast">divergență</string>
+  <string name="default_set">Violare</string>
+
+  <string name="camera_recommended_use">Se recomandă utilizarea camerei FHD (1080P)!</string>
+  <string name="checking">În test, așteptați …</string>
+  <string name="saving">Nu opriți alimentarea în timpul salvării!</string>
+  <string name="camera_check">Detectarea camerei</string>
+  <string name="CAM_NO_SIGNAL">Nu este detectat aparatul foto, faceți următoarele acțiuni pentru a verifica: 1. Verificați dacă aparatul foto este conectat corect 2. Re-detectați sau accesați Setări din fabrică - "Backsight și 360 Panorama Settings" pentru a seta manual tipul de cameră.</string>
+  <string name="check_warn_info">Dacă imaginea inversă este anormală, faceți clic pe butonul de detectare automată!</string>
+  <string name="check_button">detectarea automată</string>
+  <string name="save_ok">a determina</string>
+  <string name="save_no">anulează</string>
+  <string name="check_show">Detectare</string>
+  <string name="CAM_TYPE_UNKNOW">Testul a eșuat, vă rugăm să re-detectați sau să setați manual tipul de cameră din \ r \ nFactory Settings - View Rear și 360 Panorama Settings.</string>
+  <string name="CAM_HARDWARE_ERROR">Hardware-ul de mers înapoi nu a reușit, contactați distribuitorul!</string>
+  <string name="check_success">Tipul camerei:</string>
+  <string name="save_ask">Este salvat?</string>
+  <string name="write_ok">Salvată cu succes, ieșirea din mersul înapoi și reintroducerea inversării vor avea efect!</string>
+</resources>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="presenter"
+            type="com.wwc2.dvr.ui.record.RecordPresenter" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:gravity="center">
+
+        <com.wwc2.dvr.ui.GestureSurfaceView
+            android:id="@+id/camera_view_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ImageView
+            android:id="@+id/camera_cutover"
+            android:padding="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:visibility="gone"
+            android:src="@mipmap/camera_cutover" />
+
+        <ImageView
+            android:id="@+id/btn_bottom_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_bottom_show_selector"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/DIMEN_65PX"
+            android:paddingLeft="@dimen/DIMEN_30PX"/>
+<!--            app:onClickCommand="@{presenter.onClickShowBottom}"/>快速点击无效-->
+
+        <ImageView
+            android:id="@+id/btn_bottom_back"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_bottom_back_selector"
+            android:layout_above="@+id/btn_bottom_show"
+            android:paddingBottom="@dimen/DIMEN_5PX"
+            android:paddingLeft="@dimen/DIMEN_30PX"/>
+
+        <ImageView
+            android:id="@+id/iv_record_status_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/DIMEN_30dp"
+            android:layout_marginRight="@dimen/DIMEN_30dp"
+            android:visibility="gone"
+            android:src="@mipmap/iv_record_status" />
+
+        <!--无信号提示-->
+        <RelativeLayout
+            android:id="@+id/layout_nosignal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_nosignal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_warning"
+                android:gravity="center"
+                android:text="@string/no_signal"
+                android:paddingTop="@dimen/DIMEN_15dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/DIMEN_26sp" />
+
+            <TextView
+                android:layout_width="@dimen/DIMEN_500PX"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_nosignal"
+                android:layout_marginBottom="@dimen/DIMEN_30dp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/white"
+                android:text="@string/camera_recommended_use"
+                android:textSize="17sp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_track"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/camera_guide_line"
+            android:visibility="gone" />
+
+        <!--自动检测提示框-->
+        <LinearLayout
+            android:id="@+id/layout_check_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/DIMEN_100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@mipmap/bg_check"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="18dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_check_info"
+                    android:layout_width="@dimen/DIMEN_643PX"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/check_warn_info"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/DIMEN_16sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/rl_check_success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/DIMEN_40dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="@dimen/DIMEN_5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btn_save_ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/DIMEN_40dp"
+                        android:background="@drawable/btn_warning_selector"
+                        android:maxLines="1"
+                        app:onClickCommand="@{presenter.saveOkClick}"
+                        android:text="@string/save_ok"
+                        android:textSize="@dimen/DIMEN_16sp" />
+
+                    <Button
+                        android:id="@+id/btn_save_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/DIMEN_40dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/btn_warning_selector"
+                        android:maxLines="1"
+                        app:onClickCommand="@{presenter.saveNoClick}"
+                        android:text="@string/save_no"
+                        android:textSize="@dimen/DIMEN_16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--底下操作按钮-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true">
+
+            <RelativeLayout
+                android:id="@+id/view_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/bg_bottom"
+                android:gravity="center|bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="@dimen/d_8dp"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/capture_button"
+                    style="@style/bottom_item_style"
+                    android:text="@string/bottom_button_record"
+                    android:layout_marginStart="@dimen/DIMEN_1PX"
+                    android:background="@drawable/btn_bottom_record_selector"
+                    app:onClickCommand="@{presenter.onClickCapture}"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <Button
+                    android:id="@+id/photo_button"
+                    style="@style/bottom_item_style"
+                    android:text="@string/bottom_button_photo"
+                    android:background="@drawable/btn_bottom_photo_selector"
+                    android:layout_toEndOf="@id/capture_button"/>
+<!--                app:onClickCommand="@{presenter.onClickPhoto}"-->
+
+                <Button
+                    android:id="@+id/lock_button"
+                    style="@style/bottom_item_style"
+                    android:text="@string/bottom_button_lock"
+                    android:background="@drawable/btn_bottom_lock_selector"
+                    app:onClickCommand="@{presenter.onClickLockState}"
+                    android:layout_toEndOf="@id/photo_button"/>
+
+                <Button
+                    android:id="@+id/file_button"
+                    style="@style/bottom_item_style"
+                    android:text="@string/bottom_button_list"
+                    android:background="@drawable/btn_bottom_list_selector"
+                    android:layout_toEndOf="@id/lock_button"/>
+<!--                app:onClickCommand="@{presenter.onClickFilemanager}"-->
+
+                <Button
+                    android:id="@+id/setting_button"
+                    style="@style/bottom_item_style"
+                    android:text="@string/bottom_button_setup"
+                    android:background="@drawable/btn_bottom_setup_selector"
+                    app:onClickCommand="@{presenter.onClickSettings}"
+                    android:layout_toEndOf="@id/file_button"/>
+
+                <!--<ImageView
+                    android:id="@+id/capture_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/capture_nor"
+                    app:onClickCommand="@{presenter.onClickCapture}" />
+
+                <ImageView
+                    android:id="@+id/photo_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1px"
+                    android:layout_toEndOf="@id/capture_button"
+                    android:src="@drawable/photo_selector"
+                    app:onClickCommand="@{presenter.onClickPhoto}" />
+
+                <ImageView
+                    android:id="@+id/lock_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1px"
+                    android:layout_toEndOf="@id/photo_button"
+                    android:background="@mipmap/lock_nor"
+                    app:onClickCommand="@{presenter.onClickLockState}" />
+
+
+                <ImageView
+                    android:id="@+id/file_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1px"
+                    android:layout_toEndOf="@id/lock_button"
+                    android:src="@drawable/file_selector"
+                    app:onClickCommand="@{presenter.onClickFilemanager}" />
+
+                <ImageView
+                    android:id="@+id/setting_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1px"
+                    android:layout_toEndOf="@id/file_button"
+                    android:src="@drawable/setting_selector"
+                    app:onClickCommand="@{presenter.onClickSettings}" />-->
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

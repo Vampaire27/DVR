@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Invertir</string>
+  <string name="no_signal">Sin señal</string>
+  <string name="brightness">Brillo</string>
+  <string name="saturation">Saturación</string>
+  <string name="contrast">Contraste</string>
+  <string name="default_set">Predeterminado</string>
+  <string name="camera_recommended_use">Se recomienda utilizar la cámara FHD (1080P)!</string>
+  <string name="checking">En la prueba, por favor espere …</string>
+  <string name="saving">Ahorrar ... No apagar!</string>
+  <string name="camera_check">Detección de cámara</string>
+  <string name="CAM_NO_SIGNAL">No se ha detectado ninguna cámara, siga la operación para solucionar problemas 1. Compruebe si la cámara está conectada correctamente 2. Vuelva a detectar o vaya a Configuración de fábrica - "Configuración de Panorama y Vista panorámica 360" para configurar manualmente el tipo de cámara.</string>
+  <string name="check_warn_info">Si la imagen de inversión es anormal, haga clic en el botón de detección automática.</string>
+  <string name="check_button">Detección automática</string>
+  <string name="save_ok">Determinar</string>
+  <string name="save_no">Cancelar</string>
+  <string name="check_show">Detección</string>
+  <string name="CAM_TYPE_UNKNOW">La prueba falló, vuelva a detectar o configure manualmente el tipo de cámara en \ r \ nConfiguración de fábrica - Vista posterior y 360 Configuración de panorama.</string>
+  <string name="CAM_HARDWARE_ERROR">¡El hardware de inversión ha fallado, póngase en contacto con el distribuidor!</string>
+  <string name="check_success">Tipo de camara</string>
+  <string name="save_ask">¿Se guarda?</string>
+  <string name="write_ok">¡Guardado correctamente, saliendo de la inversión y reingresando la inversión tendrá efecto!</string>
+</resources>

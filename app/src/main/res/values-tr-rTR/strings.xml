@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kamera</string>
+
+    <string name="no_signal">Sinyal yok!</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="saturation">Doyma</string>
+    <string name="contrast">Kontrast</string>
+    <string name="default_set">Varsayılan</string>
+    <string name="camera_recommended_use">FHD (1080P) kamera önerilir</string>
+    <string name="checking">Denetleniyor ... Lütfen bekleyin</string>
+    <string name="saving">Kaydederken gücü kesmeyin!</string>
+    <string name="camera_check">Kamera algılama</string>
+    <string name="CAM_NO_SIGNAL">Kamera algılanmadı, Lütfen kontrol etmek için aşağıdaki işlemleri yapın: Kameranın doğru bağlanıp bağlanmadığını kontrol edin 2. Otomatik Kontrol e veya elle ayarlanan kamera tipine tekrar dokunun: Ayar - Fabrika - Kamera ve 360 ​​panoramik ayar</string>
+    <string name="check_warn_info">Geri çekilen görüntü anormal ise, lütfen otomatik algıla düğmesine tıklayın!</string>
+    <string name="check_button">Otomatik algılama</string>
+    <string name="save_ok">belirlemek</string>
+    <string name="save_no">iptal etmek</string>
+    <string name="check_show">Otomatik</string>
+    <string name="CAM_TYPE_UNKNOW">Test başarısız oldu, lütfen \ r \ nFabrika Ayarları - Arkadan Görünüm ve 360 ​​Panorama Ayarları nda kamera tipini yeniden tespit edin veya manuel olarak ayarlayın.</string>
+    <string name="check_success">Kamera tipi:</string>
+    <string name="save_ask">Kurtarıldı mı?</string>
+    <string name="write_ok">Başarıyla kaydedildi, geri çıkmadan çıkma ve geri girme işlemine tekrar girilmesi etkili olacaktır!</string>
+</resources>

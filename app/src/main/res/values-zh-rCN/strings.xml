@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">DVR</string>
+    <string name="select">Select USB Web Camera</string>
+    <string name="camera">Camera</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_device">No USB camera found</string>
+
+    <!-- context -->
+    <string name="s_null">null</string>
+    <string name="s_to_scan">驱动外设</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="factory">工厂设置</string>
+    <string name="factory_title">请输入工厂密码</string>
+    <string name="dvr_camera_setting_dominant">后摄类型</string>
+    <string name="dvr_camera_setting_secondary">前摄类型</string>
+    <string name="dvr_camera_setting_secondary_back">倒车类型</string>
+    <string name="dvr_video_setting">摄像头输入口</string>
+    <string name="video_settings">视频设置</string>
+    <string name="auto_save_time">自动保存时间</string>
+    <string name="video_quality">录像质量</string>
+    <string name="record_no_voice">静音录像</string>
+    <string name="record_setting">录像设置</string>
+    <string name="setting">设置</string>
+    <string name="takephoto">拍照</string>
+    <string name="file">浏览</string>
+    <string name="auto_record">开机自动录像</string>
+    <string name="show_water_mark">显示时间水印</string>
+    <string name="main_mirror">后摄像头镜像</string>
+    <string name="sub_mirror">前摄像头镜像</string>
+    <string name="left_mirror">左摄像头镜像</string>
+    <string name="right_mirror">右摄像头镜像</string>
+    <string name="video_localtion">存储路径</string>
+    <string name="split_screen_str">预览模式</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="high">高</string>
+    <string name="middle">中</string>
+    <string name="low">低</string>
+    <string name="sd">SD卡</string>
+    <string name="str_video_settings_one">单录</string>
+    <!--<string name="str_video_settings_one_1">单路1</string>-->
+    <string name="str_video_settings_double">双录</string>
+    <string name="full_screen">全屏</string>
+    <string name="split_screen">分屏(左右)</string>
+    <string name="split_screen_up_down">分屏(上下)</string>
+    <string name="local">本地</string>
+    <string name="delete">删除</string>
+    <string name="lock">锁定/解锁</string>
+    <string name="unlock">解锁</string>
+    <string name="checked">已选择&#160;</string>
+    <string name="record">录像</string>
+    <string name="no_signal">没检测到信号！</string>
+    <string name="photo_finish">拍照完成</string>
+    <string name="photo_fail">拍照失败</string>
+    <string name="photo_err">拍照异常</string>
+    <string name="photo_err_size">内存不足,无法拍照</string>
+    <string name="video_no_open">录像没开启</string>
+    <string name="video_manager">录像浏览</string>
+    <string name="all_selected">全选</string>
+    <string name="all_selected_no">反选</string>
+    <string name="no_camera">摄像头未连接</string>
+    <string name="video_select">选择</string>
+    <string name="usb">USB</string>
+    <string name="usb1">USB1</string>
+    <string name="stop">停止</string>
+    <string name="channel_name">DVR</string>
+    <string name="video_format">格式化</string>
+    <string name="dvr_camera_type_setting">摄像头类型</string>
+
+    <string name="brightness">亮&#160;&#160;&#160;&#160;度</string>
+    <string name="saturation">饱和度</string>
+    <string name="contrast">对比度</string>
+    <string name="default_set">默&#160;&#160;&#160;认</string>
+
+    <string name="check_warn_info">若倒车图像异常，请点击自动检测按钮！</string>
+    <string name="check_button">自动检测</string>
+    <string name="save_ok">确 定</string>
+    <string name="save_no">取 消</string>
+    <string name="camera_check">摄像头检测</string>
+
+    <string name="check_show">检&#160;&#160;&#160;测</string>
+    <string name="checking">检测中，请稍候...</string>
+    <string name="CAM_TYPE_UNKNOW">检测失败，请重新检测或到Dvr设置中手动设置摄像头类型。</string>
+    <string name="CAM_NO_SIGNAL">未检测到摄像头类型，请按照以下操作进行故障排查：\r\n1、检查摄像头是否正常连接；\r\n2、重新检测或到Dvr设置中手动设置摄像头类型。</string>
+    <string name="CAM_ERR">请检查摄像头是否正常连接。</string>
+    <string name="CAM_HARDWARE_ERROR">倒车硬件出现故障，请联系经销商！</string>
+    <string name="check_error">摄像头启动异常，请重新检测或下拉菜单重新启动设备！</string>
+    <string name="check_success">摄像头类型：</string>
+    <string name="save_ask">，是否保存？</string>
+    <string name="write_ok">保存成功，退出倒车再重新进入倒车才会生效！</string>
+    <string name="saving">保存中，请勿断电！</string>
+    <string name="camera_recommended_use">推荐使用FHD（1080P）摄像头！</string>
+    <string name="start_recording">开始录像</string>
+    <string name="stop_recording">停止录像</string>
+    <string name="video_creating">视频正在生成中，请稍等</string>
+    <string name="video_delete_str">当前存储空间不足，无法录制\n请及时清理。</string>
+    <string name="file_error">当前文件不存在。</string>
+    <string name="device_error">录像存储设备异常或空间不足，请稍等</string>
+    <string name="file_error_refresh">所选文件不存在，重新刷新列表！</string>
+    <string name="file_size_error">文件错误，无法播放！</string>
+
+    <string name="sensor">碰撞检测</string>
+    <string name="sensor_key0">关闭</string>
+    <string name="sensor_key1">轻微</string>
+    <string name="sensor_key2">中等</string>
+    <string name="sensor_key3">严重</string>
+
+    <string name="main_record_type">后摄像头录像</string>
+    <string name="sub_record_type">前摄像头录像</string>
+    <string name="record_type_default">720p</string>
+    <string name="nodevice">所选设备不存在！</string>
+    <string name="str_not_data">暂无数据</string>
+
+    <string name="str_start_record">开始录像...</string>
+
+
+    <!--add 2020.05.06 ,only english and zh-rCN-->
+    <string name="show_channel_water_mark">显示通道水印</string>
+
+    <string name="show_gps_water_mark">GPS水印</string>
+
+    <string name="show_carNumber_water_mark">车牌水印</string>
+
+    <string name="carNumber_set">车牌号码</string>
+
+    <string name="carNumber_title">请输入车牌号码</string>
+
+    <string name="normal_mirror">正常</string>
+    <string name="left_right_mirror">左右</string>
+    <string name="up_down_mirror">上下</string>
+    <string name="mirror">上下/左右</string>
+
+    <string name="bottom_button_record">录像</string>
+    <string name="bottom_button_photo">拍照</string>
+    <string name="bottom_button_lock">锁定</string>
+    <string name="bottom_button_list">列表</string>
+    <string name="bottom_button_setup">设置</string>
+
+    <string name="list_video_front">视频\n(前置)</string>
+    <string name="list_video_back">视频\n(后置)</string>
+    <string name="list_video_left">视频\n(左置)</string>
+    <string name="list_video_right">视频\n(右置)</string>
+    <string name="list_vide_quart">视频</string>
+    <string name="list_image">图片</string>
+
+    <string name="setting_record_type">录制类型</string>
+    <string name="setting_record_type4_1">四合一</string>
+    <string name="setting_record_type4">四录</string>
+    <string name="setting_record_type2">双录</string>
+    <string name="setting_record_type2_1">二合一</string>
+    <string name="setting_record_type1">单录</string>
+
+    <string name="common_dialog_str1">一键删除未加锁文件</string>
+    <string name="common_dialog_str2">一键删除加锁文件</string>
+    <string name="deletetitle">存储空间不够，即将停止录像，建议清除</string>
+    <string name="delete_bitty_title">存储空间不够，已停止录像，建议清除</string>
+    <string name="invalid_car_number">无效的车牌号!</string>
+
+    <string name="str_format_info">确认执行当前操作？\n\n  录像存储设备内容将被清空。</string>
+    <string name="str_format_success">格式化完成!</string>
+    <string name="str_setuping">正在设置中,请勿退出...</string>
+    <string name="str_formating">正在格式化,请勿退出...</string>
+    <string name="str_start_format">开始格式化！</string>
+
+    <string-array name="array_save_time">
+        <item>3分钟</item>
+        <item>5分钟</item>
+    </string-array>
+
+    <string-array name="array_record_bps">
+        <item>超高清</item>
+        <item>高清</item>
+        <item>普清</item>
+    </string-array>
+</resources>

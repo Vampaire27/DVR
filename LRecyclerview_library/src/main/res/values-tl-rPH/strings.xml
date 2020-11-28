@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Hilahin ang pag-refresh</string>
+    <string name="listview_header_hint_release">Paglabas upang \ni-refresh kaagad</string>
+    <string name="refreshing">Refreshing ...</string>
+    <string name="refresh_done">Kumpletuhin ang kumpletong</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Đảo ngược</string>
+  <string name="no_signal">Không có tín hiệu</string>
+  <string name="brightness">Độ sáng</string>
+  <string name="saturation">Độ bão hòa</string>
+  <string name="contrast">Tương phản</string>
+  <string name="default_set">Mặc định</string>
+  <string name="camera_recommended_use">Nên sử dụng máy ảnh FHD (1080P)!</string>
+  <string name="checking">Trong bài kiểm tra, vui lòng đợi …</string>
+  <string name="saving">Đừng tắt nguồn trong khi tiết kiệm!</string>
+  <string name="camera_check">Phát hiện camera</string>
+  <string name="CAM_NO_SIGNAL">Không phát hiện thấy camera, vui lòng thực hiện theo thao tác để khắc phục sự cố 1. Kiểm tra xem camera có được kết nối đúng không 2. Phát hiện lại hoặc đi đến cài đặt gốc - xem phía sau và cài đặt toàn cảnh 360 độ theo cách thủ công đặt loại camera</string>
+  <string name="check_warn_info">Nếu hình ảnh đảo ngược là bất thường, xin vui lòng bấm vào nút tự động phát hiện!</string>
+  <string name="check_button">Tự động phát hiện</string>
+  <string name="save_ok">chắc chắn</string>
+  <string name="save_no">hủy</string>
+  <string name="check_show">Phát hiện</string>
+  <string name="CAM_TYPE_UNKNOW">Thử nghiệm thất bại, vui lòng phát hiện lại hoặc đặt thủ công loại máy ảnh trong \ r \ n Cài đặt cần thiết - Chế độ xem phía sau và 360 Toàn cảnh.</string>
+  <string name="CAM_HARDWARE_ERROR">Phần cứng đảo ngược đã thất bại, xin vui lòng liên hệ với các đại lý!</string>
+  <string name="check_success">Loại máy ảnh:</string>
+  <string name="save_ask">Có được lưu không?</string>
+  <string name="write_ok">Đã lưu thành công, thoát khỏi đảo ngược và nhập lại đảo ngược sẽ có hiệu lực!</string>
+</resources>

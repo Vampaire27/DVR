@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_set"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/DIMEN_20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/DIMEN_80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/brightness"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+
+        <SeekBar
+            android:id="@+id/camera_brightness_progress"
+            style="@android:style/Widget.Holo.Light.SeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/DIMEN_20dp"
+            android:maxHeight="@dimen/DIMEN_20dp"
+            android:minWidth="@dimen/DIMEN_280dp"
+            android:maxWidth="@dimen/DIMEN_280dp"
+            android:thumbOffset="0dp"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/tv_brightness"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/DIMEN_80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saturation"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+
+        <SeekBar
+            android:id="@+id/camera_saturation_progress"
+            style="@android:style/Widget.Holo.Light.SeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/DIMEN_20dp"
+            android:thumbOffset="0dp"
+            android:maxHeight="@dimen/DIMEN_20dp"
+            android:minWidth="@dimen/DIMEN_280dp"
+            android:maxWidth="@dimen/DIMEN_280dp"
+            android:max="255" />
+
+        <TextView
+            android:id="@+id/tv_saturation"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DIMEN_15dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/DIMEN_80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/contrast"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+
+        <SeekBar
+            android:id="@+id/camera_contrast_progress"
+            style="@android:style/Widget.Holo.Light.SeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/DIMEN_20dp"
+            android:maxHeight="@dimen/DIMEN_20dp"
+            android:thumbOffset="0dp"
+            android:minWidth="@dimen/DIMEN_280dp"
+            android:maxWidth="@dimen/DIMEN_280dp"
+            android:max="80" />
+
+        <TextView
+            android:id="@+id/tv_contrast"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/DIMEN_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/DIMEN_50dp"
+        android:layout_marginTop="@dimen/DIMEN_15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_def"
+            android:layout_width="@dimen/DIMEN_100dp"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:background="@drawable/btn_warning_selector"
+            android:text="@string/default_set"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_show_check"
+            android:layout_width="@dimen/DIMEN_100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/DIMEN_15dp"
+            android:maxLines="2"
+            android:background="@drawable/btn_warning_selector"
+            android:text="@string/camera_check"
+            android:visibility="gone"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">RafraîchirVersLeBas</string>
+    <string name="listview_header_hint_release">Relâchez pour \nrafraîchir immédiatement</string>
+    <string name="refreshing">Rafraîchissant ...</string>
+    <string name="refresh_done">Rafraîchissement terminé</string>
+
+    <string name="listview_loading">Dans</string>
+    <string name="nomore_loading">Disparu</string>
+    <string name="listview_header_last_time">Dernière mise à jour</string>
+    <!--footer-->
+    <string name="list_footer_loading">Chargement ...</string>
+    <string name="list_footer_network_error">Cliquez sur recharger</string>
+    <string name="list_footer_end">Tout chargé</string>
+    <string name="text_just">Tout à l\'heure</string>
+    <string name="text_seconds_ago">Il y a quelques secondes</string>
+    <string name="text_minute_ago">Il y a quelques minutes</string>
+    <string name="text_hour_ago">Il y a quelques heures</string>
+    <string name="text_day_ago">Il y a quelques jours</string>
+    <string name="text_month_ago">Il y a un mois</string>
+    <string name="text_year_ago">Il y a des années</string>
+</resources>

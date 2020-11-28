@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">DVR</string>
+    <string name="select">Select USB Web Camera</string>
+    <string name="camera">Camera</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_device">No USB camera found</string>
+
+    <!-- context -->
+    <string name="s_null">null</string>
+    <string name="s_to_scan">Drive peripherals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="factory">Factory settings</string>
+    <string name="factory_title">Please enter the factory password</string>
+    <string name="dvr_camera_setting_dominant">Dominant type</string>
+    <string name="dvr_camera_setting_secondary">Secondary type</string>
+    <string name="dvr_camera_setting_secondary_back">Reversing type</string>
+    <string name="dvr_video_setting">Camera input</string>
+    <string name="auto_save_time">Auto save time</string>
+    <string name="video_quality">Record quality</string>
+    <string name="record_no_voice">Mute video</string>
+    <string name="record_setting">Recording settings</string>
+    <string name="setting">Settings</string>
+    <string name="takephoto">Photograph</string>
+    <string name="file">Browse</string>
+    <string name="auto_record">Boot automatic record</string>
+    <string name="show_water_mark">Display time watermark</string>
+    <string name="dvr_camera_type_setting">Camera type</string>
+
+    <string name="main_mirror">Rear mirror</string>
+    <string name="sub_mirror">Front mirror</string>
+    <string name="left_mirror">Left mirror</string>
+    <string name="right_mirror">Right mirror</string>
+    <string name="video_localtion">Storage path</string>
+    <string name="video_settings">Video settings</string>
+    <string name="split_screen_str">Preview mode</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="high">High</string>
+    <string name="middle">Middle</string>
+    <string name="low">Low</string>
+    <string name="sd">SD card</string>
+    <string name="str_video_settings_one">Single record</string>
+    <!--<string name="str_video_settings_one_1">Single record1</string>-->
+    <string name="full_screen">Full screen</string>
+    <string name="split_screen">Split screen(LR)</string>
+    <string name="split_screen_up_down">Split screen(UD)</string>
+    <string name="local">Local</string>
+    <string name="str_video_settings_double">Double recording</string>
+    <string name="delete">Delete</string>
+    <string name="lock">Lock/unlock</string>
+    <string name="unlock">Unlock </string>
+    <string name="checked">Selected&#160;</string>
+    <string name="record">Video</string>
+    <string name="no_signal">No signal detected!</string>
+    <string name="photo_finish">Photo completed</string>
+    <string name="photo_fail">Photo failed</string>
+    <string name="photo_err">Photo exception</string>
+    <string name="photo_err_size">Insufficient memory, unable to take photos</string>
+    <string name="video_no_open">Video does not open</string>
+    <string name="video_manager">Video browsing</string>
+    <string name="all_selected">Select all</string>
+    <string name="all_selected_no">Inverse selection</string>
+    <string name="no_camera">Camera not connected</string>
+    <string name="video_select">Select</string>
+    <string name="usb">USB</string>
+    <string name="usb1">USB1</string>
+    <string name="stop">Stop</string>
+    <string name="channel_name">DVR</string>
+    <string name="video_format">Format</string>
+
+    <string name="brightness">Brightness</string>
+    <string name="saturation">Saturation</string>
+    <string name="contrast">Contrast</string>
+    <string name="default_set">Default</string>
+
+    <string name="check_warn_info">若倒车图像异常，请点击自动检测按钮！</string>
+    <string name="check_warn_info_check">若图像异常，请点击自动检测按钮！</string>
+    <string name="check_button">自动检测</string>
+    <string name="save_ok">确 定</string>
+    <string name="save_no">取 消</string>
+    <string name="camera_check">摄像头检测</string>
+
+    <string name="check_show">检&#160;&#160;&#160;测</string>
+    <string name="checking">检测中，请稍候...</string>
+    <string name="CAM_TYPE_UNKNOW">检测失败，请重新检测或到Dvr设置中手动设置摄像头类型。</string>
+    <string name="CAM_NO_SIGNAL">未检测到摄像头类型，请按照以下操作进行故障排查：\r\n1、检查摄像头是否正常连接；\r\n2、重新检测或到Dvr设置中手动设置摄像头类型。</string>
+    <string name="CAM_ERR">请检查摄像头是否正常连接。</string>
+    <string name="CAM_HARDWARE_ERROR">倒车硬件出现故障，请联系经销商！</string>
+    <string name="check_error">摄像头启动故障，请重新检测或下拉菜单重新启动设备！</string>
+    <string name="check_success">摄像头类型：</string>
+    <string name="save_ask">，是否保存？</string>
+    <string name="write_ok">保存成功，退出倒车再重新进入倒车才会生效！</string>
+    <string name="write_ok_check">保存成功！</string>
+    <string name="saving">保存中，请勿断电！</string>
+    <string name="camera_recommended_use">推荐使用FHD（1080P）摄像头！</string>
+    <string name="start_recording">开始录像</string>
+    <string name="stop_recording">停止录像</string>
+    <string name="video_creating">视频正在生成中，请稍等</string>
+    <string name="video_delete_str">当前存储空间不足，无法录制\n请及时清理。</string>
+    <string name="file_error">当前文件不存在。</string>
+    <string name="device_error">Record device error, wait</string>
+    <string name="file_error_refresh">File not exist,refresh!</string>
+    <string name="file_size_error">File error, can not play!</string>
+
+    <string name="sensor">碰撞检测</string>
+    <string name="sensor_key0">关闭</string>
+    <string name="sensor_key1">轻微</string>
+    <string name="sensor_key2">中等</string>
+    <string name="sensor_key3">严重</string>
+
+    <string name="main_record_type">Rear record type</string>
+    <string name="sub_record_type">Front record type</string>
+    <string name="record_type_default">720p</string>
+    <string name="nodevice">The select device not exit!</string>
+    <string name="str_not_data">No data</string>
+
+    <string name="str_start_record">Start Recordering...</string>
+
+   <!--add 2020.05.06 ,only english and zh-rCN-->
+    <string name="show_channel_water_mark">Display hannel watermark</string>
+
+    <string name="show_gps_water_mark">GPS watermark</string>
+
+    <string name="show_carNumber_water_mark">License number watermark</string>
+
+    <string name="carNumber_set">License number</string>
+
+    <string name="carNumber_title">Please enter the License number</string>
+
+    <string name="normal_mirror">Normal</string>
+    <string name="left_right_mirror">L-R mirror</string>
+    <string name="up_down_mirror">U-D mirror</string>
+    <string name="mirror">Mirror</string>
+
+    <string name="bottom_button_record">Record</string>
+    <string name="bottom_button_photo">Photo</string>
+    <string name="bottom_button_lock">Lock</string>
+    <string name="bottom_button_list">List</string>
+    <string name="bottom_button_setup">Setup</string>
+
+    <string name="list_video_front">Video\n(front)</string>
+    <string name="list_video_back">Video\n(rear)</string>
+    <string name="list_video_left">Video\n(left)</string>
+    <string name="list_video_right">Video\n(right)</string>
+    <string name="list_vide_quart">Video</string>
+    <string name="list_image">Image</string>
+
+    <string name="setting_record_type">Recording type</string>
+    <string name="setting_record_type4_1">Four in one</string>
+    <string name="setting_record_type4">Four records</string>
+    <string name="setting_record_type2">Two records</string>
+    <string name="setting_record_type2_1">Dual in one</string>
+    <string name="setting_record_type1">One record</string>
+
+    <drawable name="checked">#B9D1D4</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <string name="common_dialog_str1"> One-click deletion of unlocked files</string>
+    <string name="common_dialog_str2">One key to delete locked files</string>
+    <string name="deletetitle">The storage space is not enough, the recording will be stopped\n soon, it is recommended to clear</string>
+    <string name="delete_bitty_title">There is not enough storage space to stop recording,\nit is recommended to clear</string>
+
+    <string name="invalid_car_number">Invalid car nuber!</string>
+
+    <string name="str_format_info">Sure to format?\n\n  Record device will clear.</string>
+    <string name="str_format_success">Format finish!</string>
+    <string name="str_setuping">Setting, do not exit!</string>
+    <string name="str_formating">Formating, do not exit!</string>
+    <string name="str_start_format">Start format!</string>
+
+    <string-array name="array_save_time">
+        <item>3min</item>
+        <item>5min</item>
+    </string-array>
+
+    <string-array name="array_record_bps">
+        <item>FHD</item>
+        <item>HD</item>
+        <item>Normal</item>
+    </string-array>
+</resources>

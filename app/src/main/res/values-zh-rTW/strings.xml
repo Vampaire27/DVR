@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">DVR</string>
+  <string name="no_signal">無信號</string>
+  <string name="brightness">亮度</string>
+  <string name="saturation">飽和度</string>
+  <string name="contrast">對比度</string>
+  <string name="default_set">默認</string>
+  <string name="camera_recommended_use">推薦使用FHD(1080P)攝像頭！</string>
+  <string name="checking">檢測中，請稍後…</string>
+  <string name="saving">保存中，請勿斷電！</string>
+  <string name="camera_check">攝像頭檢測</string>
+  <string name="CAM_NO_SIGNAL">未檢測到攝像頭，請按照一下操作進行故障排查 1.檢查攝像頭是否正確連接 2.重新檢測或到 工廠設置--》後視和360全景設置 中手動設置攝像頭類型</string>
+  <string name="check_warn_info">若倒車圖像異常，請點擊自動檢測按鈕！</string>
+  <string name="check_button">自動檢測</string>
+  <string name="save_ok">確定</string>
+  <string name="save_no">取消</string>
+  <string name="check_show">檢測</string>
+  <string name="CAM_TYPE_UNKNOW">檢測失敗，請重新檢測到到\ r \ n工廠設置 - 後視和360全景設置中手動設置攝像頭類型。</string>
+  <string name="CAM_HARDWARE_ERROR">倒車硬件出現故障，請聯繫經銷商！</string>
+  <string name="check_success">攝像頭類型：</string>
+  <string name="save_ask">是否保存？</string>
+  <string name="write_ok">保存成功，退出倒車再重新進入倒車才會生效！</string>
+
+  <string name="bottom_button_record">錄像</string>
+  <string name="bottom_button_photo">拍照</string>
+  <string name="bottom_button_lock">鎖定</string>
+  <string name="bottom_button_list">列表</string>
+  <string name="bottom_button_setup">設置</string>
+
+  <string name="list_video_front">視頻\n(前置)</string>
+  <string name="list_video_back">視頻\n(後置)</string>
+  <string name="list_video_left">視頻\n(左置)</string>
+  <string name="list_video_right">視頻\n(右置)</string>
+  <string name="list_vide_quart">視頻</string>
+  <string name="list_image">圖片</string>
+
+  <string name="setting_record_type">錄製類型</string>
+  <string name="setting_record_type4_1">四合一</string>
+  <string name="setting_record_type4">四錄</string>
+  <string name="setting_record_type2">雙錄</string>
+  <string name="setting_record_type2_1">二合一</string>
+  <string name="setting_record_type1">單錄</string>
+
+  <string name="common_dialog_str1">一鍵刪除未加鎖文件</string>
+  <string name="common_dialog_str2">一鍵刪除加鎖文件</string>
+  <string name="deletetitle">存儲空間不夠，即將停止錄像，建議清除</string>
+  <string name="delete_bitty_title">存儲空間不夠，已停止錄像，建議清除</string>
+
+  <string-array name="array_save_time">
+    <item>3分鐘</item>
+    <item>5分鐘</item>
+  </string-array>
+
+  <string-array name="array_record_bps">
+    <item>超高清</item>
+    <item>高清</item>
+    <item>普清</item>
+  </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Pagbabalik</string>
+  <string name="no_signal">Walang signal</string>
+  <string name="brightness">Liwanag</string>
+  <string name="saturation">Saturation</string>
+  <string name="contrast">Contrast</string>
+  <string name="default_set">Default</string>
+  <string name="camera_recommended_use">Inirerekumendang gamitin ang FHD (1080P) camera!</string>
+  <string name="checking">Sinusuri ... Mangyaring maghintay</string>
+  <string name="saving">Nagse-save ... Huwag poweroff!</string>
+  <string name="camera_check">Detection ng camera</string>
+  <string name="CAM_NO_SIGNAL">Walang nakitang camera, mangyaring sundin ang operasyon upang i-troubleshoot 1. Suriin kung tama ang koneksyon ng kamera 2. Muling tuklasin o pumunta sa Mga Setting ng Pabrika - "Backsight at 360 Panorama Settings" upang manu-manong itakda ang uri ng camera.</string>
+  <string name="check_warn_info">Kung abnormal ang pag-reverse ng imahe, paki-click ang pindutan ng auto detect!</string>
+  <string name="check_button">awtomatikong pagtuklas</string>
+  <string name="save_ok">matukoy</string>
+  <string name="save_no">kanselahin</string>
+  <string name="check_show">Detection</string>
+  <string name="CAM_TYPE_UNKNOW">Nabigo ang pagsubok, mangyaring muling tuklasin o manu-manong itakda ang uri ng camera sa \ r \ nMga Setting ng Setting - Rear View at 360 Panorama Settings.</string>
+  <string name="CAM_HARDWARE_ERROR">Nabigo ang pag-reverse ng hardware, mangyaring makipag-ugnay sa dealer!</string>
+  <string name="check_success">Uri ng kamera:</string>
+  <string name="save_ask">Naka-save ba ito?</string>
+  <string name="write_ok">Matagumpay na na-save, lumabas ang pag-reverse at muling pagpasok ng pagtaliwas ay magkakabisa!</string>
+</resources>

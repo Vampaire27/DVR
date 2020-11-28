@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Апусціце абнаўленне</string>
+    <string name="listview_header_hint_release">Адпусціце, каб \nабнавіць неадкладна</string>
+    <string name="refreshing">Асвяжальны ...</string>
+    <string name="refresh_done">Абнаўленне завершана</string>
+</resources>

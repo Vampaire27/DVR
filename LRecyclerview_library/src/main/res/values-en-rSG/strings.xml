@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Tarik kesegaran \nke bawah</string>
+    <string name="listview_header_hint_release">Lepaskan untuk menyegarkan\n dengan segera</string>
+    <string name="refreshing">Menyegarkan ...</string>
+    <string name="refresh_done">Segarkan selesai</string>
+
+    <string name="listview_loading">Dalam</string>
+    <string name="nomore_loading">Pergi</string>
+    <string name="listview_header_last_time">Dikemaskini:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Memuat ...</string>
+    <string name="list_footer_network_error">Klik muat semula</string>
+    <string name="list_footer_end">Semua dimuatkan</string>
+    <string name="text_just">Sebentar tadi</string>
+    <string name="text_seconds_ago">Detik lalu</string>
+    <string name="text_minute_ago">Minit yang lalu</string>
+    <string name="text_hour_ago">Beberapa jam yang lalu</string>
+    <string name="text_day_ago">Hari yang lalu</string>
+    <string name="text_month_ago">Sebulan yang lalu</string>
+    <string name="text_year_ago">Bertahun-tahun yang lalu</string>
+</resources>

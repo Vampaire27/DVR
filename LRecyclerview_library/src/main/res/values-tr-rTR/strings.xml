@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Yenilemeyi aşağı çek</string>
+    <string name="listview_header_hint_release">Hemen yenilemek \niçin bırakın</string>
+    <string name="refreshing">Yenileniyor ...</string>
+    <string name="refresh_done">Yenileme tamamlandı</string>
+</resources>

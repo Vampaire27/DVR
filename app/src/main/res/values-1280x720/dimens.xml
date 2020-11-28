@@ -1,0 +1,14 @@
+<resources>
+
+    <!--车牌布局-->
+    <dimen name="DIMEN_60dp">80dp</dimen>
+    <dimen name="car_number_hegith">240px</dimen>
+    <!--列表的高度-->
+    <dimen name="record_file_window_height">635px</dimen>
+    <!--设置的高度-->
+    <dimen name="setting_window_height">600px</dimen>
+
+    <dimen name="record_file_window_font_size">22sp</dimen>
+    <dimen name="record_file_window_left_font_size">18sp</dimen>
+
+</resources>

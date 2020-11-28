@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Потяните вниз\n обновления</string>
+    <string name="listview_header_hint_release">Отпустите, чтобы \nобновить немедленно</string>
+    <string name="refreshing">Освежающий...</string>
+    <string name="refresh_done">Обновление завершено</string>
+</resources>

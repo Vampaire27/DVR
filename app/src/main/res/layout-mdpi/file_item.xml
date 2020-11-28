@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="driveVideo"
+            type="com.wwc2.dvr.data.DriveVideoFont" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <com.wwc2.dvr.widget.CheckableRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_select_file_selector"
+        android:paddingStart="@dimen/DIMEN_20PX"
+        android:paddingEnd="@dimen/DIMEN_20PX"
+        android:minHeight="@dimen/DIMEN_66PX">
+
+
+        <Button
+            android:id="@+id/tv_videoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:drawableStart="@mipmap/icon_video"
+            android:ellipsize="marquee"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_centerVertical="true"
+            android:text="@{(driveVideo.name.substring(driveVideo.name.lastIndexOf('/')+1,driveVideo.name.length()))}"
+            android:textColor="#FFFFFF"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:visibility="@{driveVideo.lockStatus?View.VISIBLE:View.GONE}"
+            android:src="@mipmap/file_lock" />
+    </com.wwc2.dvr.widget.CheckableRelativeLayout>
+</layout>

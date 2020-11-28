@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">за кормой</string>
+  <string name="no_signal">Нет сигнала</string>
+  <string name="brightness">яркость</string>
+  <string name="saturation">насыщение</string>
+  <string name="contrast">контрастировать</string>
+  <string name="default_set">дефолт</string>
+  <string name="camera_recommended_use">Рекомендуется камера FHD (1080P)</string>
+  <string name="checking">Проверка ... Пожалуйста, подождите</string>
+  <string name="saving">Сохранение… Не выключайте!</string>
+  <string name="camera_check">Обнаружение камеры</string>
+  <string name="CAM_NO_SIGNAL">Камера не обнаружена, пожалуйста, выполните операцию для устранения неполадок 1. Проверьте, правильно ли подключена камера 2. Повторно определите или перейдите к заводским настройкам - «Задняя точка и 360 Panorama Settings», чтобы вручную установить тип камеры.</string>
+  <string name="check_warn_info">Если изображение заднего вида ненормально, нажмите кнопку автоопределения!</string>
+  <string name="check_button">автоматическое обнаружение</string>
+  <string name="save_ok">Подтвердить</string>
+  <string name="save_no">Отмена</string>
+  <string name="check_show">обнаружение</string>
+  <string name="CAM_TYPE_UNKNOW">Тест не пройден, пожалуйста, повторно определите или вручную установите тип камеры в разделе \ r \ nНастройки завода - Вид сзади и 360 Панорама.</string>
+  <string name="CAM_HARDWARE_ERROR">Произошел сбой реверсивного оборудования, обратитесь к дилеру!</string>
+  <string name="check_success">Тип камеры:</string>
+  <string name="save_ask">Это сохранено?</string>
+  <string name="write_ok">Успешно сохраненные, выход из реверса и повторный вход в реверс будут действовать!</string>
+</resources>

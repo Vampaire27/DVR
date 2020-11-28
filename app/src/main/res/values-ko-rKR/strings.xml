@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">반전</string>
+  <string name="no_signal">신호 없음</string>
+  <string name="brightness">밝기</string>
+  <string name="saturation">채도</string>
+  <string name="contrast">대비</string>
+  <string name="default_set">기본값</string>
+  <string name="camera_recommended_use">FHD (1080P) 카메라를 사용하는 것이 좋습니다!</string>
+  <string name="checking">확인 중 ... 기다려주십시오.</string>
+  <string name="saving">저장 중에 전원을 끄지 마십시오!</string>
+  <string name="camera_check">카메라 감지</string>
+  <string name="CAM_NO_SIGNAL">카메라가 감지되지 않았습니다. 문제 해결을위한 작업을 따르십시오. 1. 카메라가 올바르게 연결되어 있는지 확인하십시오 2.또는 수동 설정 카메라 종류를 다시 터치 : 설정 - 공장 - 카메라 및 360 파노라마 세트</string>
+  <string name="check_warn_info">반전 이미지가 비정상 인 경우 자동 감지 버튼을 클릭하십시오!</string>
+  <string name="check_button">자동 감지</string>
+  <string name="save_ok">결정</string>
+  <string name="save_no">취소</string>
+  <string name="check_show">발각</string>
+  <string name="CAM_TYPE_UNKNOW">테스트가 실패했습니다. \ r \ n 기본 설정 - 후면보기 및 360 파노라마 설정에서 카메라 유형을 다시 검색하거나 수동으로 설정하십시오.</string>
+  <string name="CAM_HARDWARE_ERROR">뒤집기 하드웨어가 실패했습니다. 판매자에게 문의하십시오!</string>
+  <string name="check_success">카메라 유형 :</string>
+  <string name="save_ask">그것은 구원 받았습니까?</string>
+  <string name="write_ok">성공적으로 저장되어 역전을 종료하고 역전을 다시 시작하면 효과가 나타납니다!</string>
+</resources>

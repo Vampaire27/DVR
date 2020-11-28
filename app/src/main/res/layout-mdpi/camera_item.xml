@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_select_file_selector"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cameraName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/DIMEN_20PX"
+            android:drawablePadding="10dp"
+            android:ellipsize="marquee"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:singleLine="true" />
+
+</LinearLayout>

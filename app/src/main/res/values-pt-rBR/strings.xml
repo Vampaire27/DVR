@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">Invertendo</string>
+  <string name="no_signal">Sem sinal</string>
+  <string name="brightness">Brilho</string>
+  <string name="saturation">Saturação</string>
+  <string name="contrast">Contraste</string>
+  <string name="default_set">Padrão</string>
+  <string name="camera_recommended_use">Recomenda-se usar a câmera FHD (1080P)!</string>
+  <string name="checking">No teste, por favor aguarde …</string>
+  <string name="saving">Não desligue enquanto economiza!</string>
+  <string name="camera_check">Detecção de câmera</string>
+  <string name="CAM_NO_SIGNAL">Nenhuma câmera detectada, por favor, siga a operação para solucionar 1. Verifique se a câmera está conectada corretamente 2. Faça novamente a detecção ou vá para as configurações de fábrica - "Backsight e 360 ​​Panorama Settings" para definir manualmente o tipo de câmera.</string>
+  <string name="check_warn_info">Se a imagem de inversão for anormal, clique no botão de detecção automática!</string>
+  <string name="check_button">detecção automática</string>
+  <string name="save_ok">determinar</string>
+  <string name="save_no">cancelar</string>
+  <string name="check_show">Detecção</string>
+  <string name="CAM_TYPE_UNKNOW">O teste falhou. Detecte novamente ou defina manualmente o tipo de câmera em \ r \ nConfigurações da fábrica - Vista traseira e Configurações do 360 Panorama.</string>
+  <string name="CAM_HARDWARE_ERROR">O hardware de reversão falhou, entre em contato com o revendedor!</string>
+  <string name="check_success">Tipo de câmera:</string>
+  <string name="save_ask">Está salvo?</string>
+  <string name="write_ok">Salvo com sucesso, sair da reversão e reinserir a reversão entrará em vigor!</string>
+</resources>

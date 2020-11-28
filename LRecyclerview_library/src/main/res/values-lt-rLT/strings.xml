@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Patraukite žemyn atnaujinti</string>
+    <string name="listview_header_hint_release">Nedelsdami paleiskite</string>
+    <string name="refreshing">Atnaujinama ...</string>
+    <string name="refresh_done">Atnaujinti baigta</string>
+</resources>

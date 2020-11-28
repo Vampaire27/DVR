@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">назад</string>
+  <string name="no_signal">Няма сигнал</string>
+  <string name="brightness">яркост</string>
+  <string name="saturation">насищане</string>
+  <string name="contrast">контраст</string>
+  <string name="default_set">По подразбиране</string>
+  <string name="camera_recommended_use">Препоръчително е да използвате FHD (1080P) камера!</string>
+  <string name="checking">В теста, моля, изчакайте …</string>
+  <string name="saving">Спестяване… Не захранвайте!</string>
+  <string name="camera_check">Откриване на камера</string>
+  <string name="CAM_NO_SIGNAL">Не е открита камера, следвайте операцията за отстраняване на неизправности 1. Проверете дали камерата е свързана правилно 2. Отново открийте или отидете на Фабрични настройки - "Назад и 360 панорамни настройки", за да зададете ръчно типа камера.</string>
+  <string name="check_warn_info">Ако обратното изображение е необичайно, моля, кликнете върху бутона за автоматично разпознаване!</string>
+  <string name="check_button">автоматично откриване</string>
+  <string name="save_ok">Определя</string>
+  <string name="save_no">отменен</string>
+  <string name="check_show">Откриване на камера</string>
+  <string name="CAM_TYPE_UNKNOW">Тестът се провали, моля, отново открийте или ръчно задайте типа на камерата в rFactory Settings - Rear View и 360 Panorama Settings.</string>
+  <string name="CAM_HARDWARE_ERROR">Хардуерът за заден ход е неуспешен, моля свържете се с дилъра!</string>
+  <string name="check_success">Тип камера:</string>
+  <string name="save_ask">Спасен ли е?</string>
+  <string name="write_ok">Записано успешно, излизането от заден ход и повторното влизане в заден ход ще влезе в сила!</string>
+</resources>

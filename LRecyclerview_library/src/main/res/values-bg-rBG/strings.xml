@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">ИздърпайтеОпресняване</string>
+    <string name="listview_header_hint_release">Пуснетенезабавно \nзаОпресняване</string>
+    <string name="refreshing">Освежаващо ...</string>
+    <string name="refresh_done">Обновяването завърши</string>
+
+    <string name="listview_loading">Зарежда се</string>
+    <string name="nomore_loading">без</string>
+    <string name="listview_header_last_time">ПоследнаАктуализация:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Зареждането ...</string>
+    <string name="list_footer_network_error">Кликнете за\n презареждане</string>
+    <string name="list_footer_end">Всички са заредени</string>
+    <string name="text_just">Точно сега</string>
+    <string name="text_seconds_ago">Преди секунди</string>
+    <string name="text_minute_ago">Преди минути</string>
+    <string name="text_hour_ago">Преди часове</string>
+    <string name="text_day_ago">Преди дни</string>
+    <string name="text_month_ago">Преди месец</string>
+    <string name="text_year_ago">Преди години</string>
+</resources>

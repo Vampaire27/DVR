@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">منجمة</string>
+  <string name="no_signal">لا إشارة</string>
+  <string name="brightness">سطوع</string>
+  <string name="saturation">التشبع</string>
+  <string name="contrast">تباين</string>
+  <string name="default_set">افتراضي</string>
+  <string name="camera_recommended_use">يوصى باستخدام كاميرا FHD (1080P)!</string>
+  <string name="checking">في الاختبار ، يرجى الانتظار …</string>
+  <string name="saving">إنقاذ ... لا poweroff!</string>
+  <string name="camera_check">كشف الكاميرا</string>
+  <string name="CAM_NO_SIGNAL">لم يتم الكشف عن الكاميرا ، يرجى اتباع العملية لاستكشاف الأخطاء وإصلاحها 1. تحقق مما إذا كانت الكاميرا متصلة بشكل صحيح 2. أعد اكتشاف أو انتقل إلى إعدادات المصنع - "إعدادات الإضاءة الخلفية و 360 بانوراما" لضبط نوع الكاميرا يدويًا.</string>
+  <string name="check_warn_info">إذا كانت الصورة العكسية غير طبيعية ، يرجى النقر على زر الاكتشاف التلقائي!</string>
+  <string name="check_button">الكشف التلقائي</string>
+  <string name="save_ok">حدد</string>
+  <string name="save_no"> ألغى </string>
+  <string name="check_show">كشف</string>
+  <string name="CAM_TYPE_UNKNOW">فشل الاختبار ، يرجى إعادة اكتشاف أو ضبط نوع الكاميرا يدويًا في \ r \ n إعدادات المصنع - المنظر الخلفي و 360 ضبط بانوراما.</string>
+  <string name="CAM_HARDWARE_ERROR">فشل الجهاز العكسي ، يرجى الاتصال بالموزع!</string>
+  <string name="check_success">نوع الكاميرا:</string>
+  <string name="save_ask">هل تم الحفظ؟</string>
+  <string name="write_ok">تم الحفظ بنجاح ، سيؤثر الخروج من الاتجاه المعاكس وإعادة الدخول إلى المفعول!</string>
+</resources>

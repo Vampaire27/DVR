@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Húzza le \na frissítést</string>
+    <string name="listview_header_hint_release">Engedje el, hogy \nazonnal frissítse</string>
+    <string name="refreshing">Frissítés ...</string>
+    <string name="refresh_done">Frissítés kész</string>
+
+</resources>

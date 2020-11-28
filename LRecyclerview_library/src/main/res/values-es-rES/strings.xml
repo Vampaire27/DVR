@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listview_header_hint_normal">Tire hacia abajo\n de actualizar</string>
+    <string name="listview_header_hint_release">Suelta para actualizar\n inmediatamente</string>
+    <string name="refreshing">Refrescante ...</string>
+    <string name="refresh_done">Actualización completa</string>
+
+    <string name="listview_loading">En</string>
+    <string name="nomore_loading">Ido</string>
+    <string name="listview_header_last_time">Última actualización:</string>
+    <!--footer-->
+    <string name="list_footer_loading">Cargando...</string>
+    <string name="list_footer_network_error">Haga clic en recargar</string>
+    <string name="list_footer_end">Todo cargado</string>
+    <string name="text_just">Justo ahora</string>
+    <string name="text_seconds_ago">Hace segundos</string>
+    <string name="text_minute_ago">Hace minutos</string>
+    <string name="text_hour_ago">Hace horas</string>
+    <string name="text_day_ago">Hace días</string>
+    <string name="text_month_ago">Hace un mes</string>
+    <string name="text_year_ago">Hace años</string>
+</resources>

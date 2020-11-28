@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="listview_header_hint_normal">Potiahnite obnovenie</string>
+    <string name="listview_header_hint_release">Uvoľnením sa okamžite obnoví</string>
+    <string name="refreshing">Obnovuje sa ...</string>
+    <string name="refresh_done">Obnoviť dokončené</string>
+</resources>

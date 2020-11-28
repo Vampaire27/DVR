@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="app_name">היפוך</string>
+  <string name="no_signal">אין אות</string>
+  <string name="brightness">בהירות</string>
+  <string name="saturation">רוויה</string>
+  <string name="contrast">ניגודיות</string>
+  <string name="default_set">ברירת מחדל</string>
+  <string name="camera_recommended_use">מומלץ להשתמש במצלמת FHD (1080P)!</string>
+  <string name="checking">בודק ... המתן</string>
+  <string name="saving">אל תדלק בזמן החיסכון!</string>
+  <string name="camera_check">זיהוי מצלמה</string>
+  <string name="CAM_NO_SIGNAL">לא זוהתה מצלמה, פעל לפי הפעולה כדי לפתור בעיות 1. בדוק אם המצלמה מחוברת כראוי .2 בדוק מחדש או עבור להגדרות היצרן - תצוגה אחורית והגדרות פנורמה של 360 להגדיר באופן ידני את סוג המצלמה</string>
+  <string name="check_warn_info">אם התמונה היפוך הוא לא נורמלי, אנא לחץ על כפתור זיהוי אוטומטי!</string>
+  <string name="check_button">זיהוי אוטומטי</string>
+  <string name="save_ok">קבעו</string>
+  <string name="save_no">בטל</string>
+  <string name="check_show">איתור</string>
+  <string name="CAM_TYPE_UNKNOW">הבדיקה נכשלה, נא לאתר מחדש או להגדיר באופן ידני את סוג המצלמה ב - r \ n הגדרות המפעל - תצוגה אחורית ו 360- הגדרות Panorama.</string>
+  <string name="CAM_HARDWARE_ERROR">החומרה ההופכת נכשלה, פנה לסוחר!</string>
+  <string name="check_success">סוג מצלמה:</string>
+  <string name="save_ask">האם זה נשמר?</string>
+  <string name="write_ok">נשמר בהצלחה, לצאת את היפוך מחדש הכניסה ההיפוך ייכנסו לתוקף!</string>
+</resources>
